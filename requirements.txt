@@ -1,9 +1,5 @@
+-e somialabs/
 pandas
 textmining3
 wordcloud
 matplotlib
-mlxtend
-graphviz
-okpy
-scikit-learn
-tweepy
