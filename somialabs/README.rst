@@ -16,7 +16,7 @@ somialabs
 
 
 
-Wrapper library for M Sociala Medier och Digitala Metoder labs
+Wrapper library for MCS Sociala Medier och Digitala Metoder labs
 
 
 * Free software: MIT license
@@ -26,7 +26,7 @@ Wrapper library for M Sociala Medier och Digitala Metoder labs
 Features
 --------
 
-* TODO
+* Implements wrappers for code examples and labs for the 2IS060 Social Media and Digital Methods course.
 
 Credits
 -------

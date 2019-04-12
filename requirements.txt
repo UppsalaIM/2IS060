@@ -3,3 +3,4 @@ pandas
 textmining3
 wordcloud
 matplotlib
+scikit-learn

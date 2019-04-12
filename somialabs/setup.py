@@ -11,7 +11,13 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+requirements = [
+    "matplotlib",
+    "pandas",
+    "textmining3",
+    "wordcloud",
+    "scikit-learn",
+]
 
 setup_requirements = [ ]
 
@@ -44,7 +50,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/djcomlab/somialabs',
+    url='https://github.com/UppsalaIM/2IS060/somialabs',
     version='0.1.0',
     zip_safe=False,
 )
