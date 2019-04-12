@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/UppsalaIM/2IS060/master)
 
-This repository contains the lab notebooks for the 2IS060 Sociala Medier och Digitala Metoder course.
+This repository contains the example and lab notebooks for the 2IS060 Sociala Medier och Digitala Metoder course.
 
 **Launch the notebooks on the cloud by clicking on the `launch binder` button above**.
 
