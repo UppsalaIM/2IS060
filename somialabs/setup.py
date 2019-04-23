@@ -17,6 +17,7 @@ requirements = [
     "textmining3",
     "wordcloud",
     "scikit-learn",
+    "nltk"
 ]
 
 setup_requirements = [ ]
@@ -51,6 +52,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/UppsalaIM/2IS060/somialabs',
-    version='0.2.0',
+    version='0.3.0',
     zip_safe=False,
 )
