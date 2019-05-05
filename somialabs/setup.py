@@ -21,7 +21,8 @@ requirements = [
     "tqdm",
     "gensim",
     "pyLDAvis",
-    "langdetect"
+    "langdetect",
+    "seaborn"
 ]
 
 setup_requirements = [ ]
