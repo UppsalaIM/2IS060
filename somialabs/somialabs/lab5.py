@@ -11,6 +11,7 @@ from ipywidgets import (
 )
 import pandas as pd
 import nltk
+nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 nltk.download('punkt')
@@ -127,7 +128,7 @@ def gensim_on_bbc_docs():
     data = preprocess_to_lemmatization()
     stopwords_verbs = ['say', 'get', 'go', 'know', 'may', 'need', 'like', 'make', 'see', 'want', 'come', 'take', 'use', 'would', 'can']
     stopwords_other = ['one', 'mr', 'bbc', 'image', 'getty', 'de', 'en', 'caption', 'also', 'copyright', 'something']
-    my_stopwords = stopwords.words('English') + stopwords_verbs + stopwords_other
+    my_stopwords = stopwords.words('english') + stopwords_verbs + stopwords_other
     data['tokens'] = data['tokens_sentences_lemmatized'].map(lambda sentences: list(chain.from_iterable(sentences)))
     data['tokens'] = data['tokens'].map(lambda tokens: [token.lower() for token in tokens if token.isalpha() 
                                                         and token.lower() not in my_stopwords and len(token)>1])
