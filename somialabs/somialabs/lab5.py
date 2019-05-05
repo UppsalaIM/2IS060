@@ -13,6 +13,7 @@ import pandas as pd
 import nltk
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
+nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 from langdetect import detect
 from nltk.tokenize import word_tokenize

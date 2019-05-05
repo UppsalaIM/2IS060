@@ -20,7 +20,8 @@ requirements = [
     "nltk",
     "tqdm",
     "gensim",
-    "pyLDAvis"
+    "pyLDAvis",
+    "langdetect"
 ]
 
 setup_requirements = [ ]
