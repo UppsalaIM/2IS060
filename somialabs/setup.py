@@ -45,7 +45,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    description="Wrapper library for M Sociala Medier och Digitala Metoder labs",
+    description="Wrapper library for Sociala Medier och Digitala Metoder labs",
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,
@@ -57,6 +57,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/UppsalaIM/2IS060/somialabs',
-    version='0.4.0',
+    version='0.5.0',
     zip_safe=False,
 )
