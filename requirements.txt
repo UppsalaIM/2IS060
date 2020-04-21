@@ -1,4 +1,3 @@
--e somialabs/
 pandas
 textmining3
 wordcloud
