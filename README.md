@@ -8,7 +8,7 @@ This repository contains the example and lab notebooks for the 2IS060 Sociala Me
 
 You can also run the notebooks on your own computer. Please read the [installation instructions](INSTALL.md) if you wish to do this.
 
-Here are the details for each lab:
+Please read the [lab instructions](Laboration 2-6 instructions.pdf) before you begin. Here are the details for each lab:
 
 | Lab   | About              | Textbook ref.  | Submission                    | Deadline         |
 |-------|--------------------|----------------|-------------------------------|------------------|
