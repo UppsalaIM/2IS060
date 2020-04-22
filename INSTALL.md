@@ -26,7 +26,7 @@ To install the required Python packages, after you have installed Anaconda you c
 
 and then
 
-   pip install -e somialabs/
+    pip install -e somialabs/
 
 You can then launch Jupyter from the Anaconda Navigator application.
 
